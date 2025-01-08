@@ -220,4 +220,38 @@
         </div>
         <div class="service">
             <h3>Outpatient Programs</h3>
-          
+            <p>Flexible treatment options that fit into your daily life and commitments.</p>
+        </div>
+        <div class="service">
+            <h3>Therapy and Counseling</h3>
+            <p>One-on-one and group sessions with licensed professionals.</p>
+        </div>
+    </section>
+
+    <section class="contact-form" id="contact" data-aos="fade-up">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>
+            &copy; 2025 BrightPath Recovery | 
+            <a href="#contact">Contact Us</a>
+        </p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+</body>
+</html>
